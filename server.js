@@ -5,7 +5,7 @@ var app        = express();
 // Handle / route
 app.get('/', (req, res) =>
    
-  res.json({'Message' : 'Hello World!'})
+  res.json({'Message' : 'I am working...'})
 )
 
 // Launch the server on port 3000
